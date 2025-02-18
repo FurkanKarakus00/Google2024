@@ -1,0 +1,126 @@
+.nav {
+    border: 1px solid rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+    background-color: white;
+
+
+}
+
+.logo {
+    height: 30px;
+}
+
+.center {
+    float: right;
+    width: 60px;
+    margin-top: 5px;
+    background-color: #ffffff;
+    padding-right: 5px;
+}
+
+.signin {
+    width: 80px;
+    height: 35px;
+    background-color: rgb(0, 110, 255);
+    border: 0px;
+    border-radius: 7%;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.buttons {
+    width: 50px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 7%;
+    text-align: center;
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.left {
+    margin-top: 5px;
+}
+
+.googlelogo {
+    width: 450px;
+    height: 200px;
+    margin-top: 120px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* Elemanları alt alta dizer */
+    align-items: center;
+    /* Ortalar */
+
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    border-radius: 25px 25px 25px 25px;
+    padding: 5px;
+    width: 700px;
+    border: 1px solid rgb(228, 228, 228);
+    height: 40px;
+}
+
+.search-container img {
+    width: 20px;
+    /* İkon boyutu */
+    margin: 0 10px;
+    /* Sağdan ve soldan boşluk bırak */
+}
+
+.search-box {
+    border: none;
+    outline: none;
+    flex: 1;
+    /* Kalan alanı kaplasın */
+}
+
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #c9c9c9;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    /* Sol ve sağ grubu ayır */
+    align-items: center;
+    height: 10px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    /* Butonlar arasında boşluk bırak */
+}
+
+.fixed-footer button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    background-color: #c9c9c9;
+    color: rgb(92, 92, 92);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fixed-footer button:hover {
+    background-color: #696969;
+}
